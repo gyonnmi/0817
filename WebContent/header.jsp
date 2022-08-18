@@ -7,6 +7,7 @@
 			<ul>
 				<li><a href="index.do">HOME</a></li>
 				<li><a href="boardListView.do">게시글목록</a></li>
+				<li><a href="boardWriteView.do">게시글작성</a></li>
 				<li><a href="joinView.do">회원가입</a></li>
 			</ul>
 		</div>
