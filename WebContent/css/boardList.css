@@ -1,0 +1,61 @@
+/*boardList.css*/
+
+@import url("reset.css");
+@import url("header.css");
+@import url("footer.css");
+
+.container	{
+	width: 100%;
+	height: calc(100vh - 140px - 50px);
+}
+
+.inner-con {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+table {
+	border: 1px solid #c0c0c0;
+	text-align: center;
+}
+
+.t1 {
+	background-color: #595959;
+	font-size: 2em;
+	padding: 20px 50px;
+	color: #ffffff;
+}
+
+table thead tr th {
+	background-color: #c0c0c0;
+	line-height: 40px;
+}
+
+table tbody tr td {
+	line-height: 30px;
+	padding: 0 20px;
+}
+
+table tbody tr td a {
+	background-color: #c0c0c0;
+	padding: 3px 10px;
+}
+
+.a1 {
+	width: 300px;
+}
+
+.a2 {
+	width: 500px;
+}
+
+table tfoot tr td a {
+	background-color: #000000;
+	color: #ffffff;
+	float: right;
+	width: 100px;
+	line-height: 30px;
+	margin: 5px 15px;
+}
+

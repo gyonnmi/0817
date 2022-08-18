@@ -1,0 +1,22 @@
+/*index.css*/
+
+@import url("reset.css");
+@import url("header.css");
+@import url("footer.css");
+
+.container	{
+	width: 100%;
+	height: calc(100vh - 140px - 50px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner-con {
+	width: 90%;
+	height: 90%;
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
